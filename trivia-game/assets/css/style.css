@@ -1,0 +1,139 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("https://www.solidbackgrounds.com/images/3840x2160/3840x2160-auburn-solid-color-background.jpg");
+}
+.header-image-container{
+    max-width: auto;
+}
+.header-image {
+ max-height: 400px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: -120px;
+ margin-bottom: -50px;
+}
+.enter-container{
+    width: 70vw;
+    height: 22vw;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-top:50px;
+    transform: translateX(-50%) translateY(-50%);
+    background: rgba(255, 255, 255, 255, 0.5);
+    padding:20px;
+    border: 1px solid black;
+    box-shadow: 0 0 8px 3px black; 
+    text-align: center
+}
+.enter-text{
+    margin-top: 50px;
+    font-family: 'Marvel', sans-serif;
+    font-size: 60px;
+}
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #000000;
+    border: none;
+    color: #C14242;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.container{
+    width: 70vw;
+    height: 22vw;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    margin-top:50px;
+    transform: translateX(-50%) translateY(-50%);
+    background: rgba(255, 255, 255, 255, 0.5);
+    padding:20px;
+    border: 1px solid black;
+    box-shadow: 0 0 8px 3px black; 
+}
+.title{
+    padding-top: 20px;
+    text-align: center;
+    font-size:36px;
+    text-transform: uppercase;
+    color: black;
+}
+.question{
+    padding: 20px;
+    font-size: 22px;
+    background: #C14242;
+    border-radius:20px;
+    margin: 10px 0px 10px 0;
+    color: whitesmoke;
+}
+.option{
+    width: 470px;
+    display: inline-block;
+    padding:10px 0px 10px 15px;
+    vertical-align: middle;
+    background: rgba(255, 255, 255, 0.5);
+    margin: 10px 0 10px 10px;
+    color: #000000;
+    border-radius: 20px;
+}
+.option:hover{
+    background: #C14242;
+    color: whitesmoke;
+}
+.next-btn{
+    border: none;
+    outline: none;
+    background:  #C14242;
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    cursor: pointer;
+    float: right;
+    margin: 10px;
+}
+.next-btn:hover{
+    background: black;
+    color: #f6f6f6;
+}
+.result{
+    height: 100px;
+    text-align: center;
+    font-size: 75px;
+}
+/* .option input:checked .option{
+    background: #08038c;
+    color: #000;
+} */
