@@ -10,16 +10,11 @@ var opt3 = document.getElementById("opt3");
 var opt4 = document.getElementById("opt4");
 var nextButton = document.getElementById("nextButton");
 var resultCont = document.getElementById("result")
-
-function displayQuizPage(){
     
     $("#button").on('click', function (event) {
-        // debugger;
-        // console.log("alert")
     event.preventDefault();
     $(".enter-container").hide();
     })
-}
 
 
 function loadQuestion(questionIndex) {
