@@ -4,3 +4,4 @@ A trivia game that tests your Marvel Knowledge!
 https://skay97.github.io/trivia-game/
 ## Screenshots
 ![](assets/Images/Marvel-trivia.png)
+![](assets/Images/Quiz.png)
