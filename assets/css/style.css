@@ -133,7 +133,179 @@ body{
     text-align: center;
     font-size: 75px;
 }
-/* .option input:checked .option{
-    background: #08038c;
-    color: #000;
-} */
+
+/* Media Queries */
+
+@media screen and (max-width:1421px){
+    .enter-container{
+        position: absolute;
+        top:50%;
+    }
+    .button{
+        margin: 50px;
+    }
+    .container{
+        height: 20vw;
+    }
+    .option{
+        width:200px;
+    }
+    
+}
+
+/* ipad pro */
+@media screen and (max-width:1100px){
+    .enter-container{
+        position: absolute;
+        top:40%;
+    }
+    .button{
+        margin: 50px;
+    }
+    .container{
+        height: 40vw;
+    }
+}
+
+@media screen and (max-width:800px){
+    .enter-container{
+        width: 70vw;
+        height: 40vw;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        margin-top:50px;
+        transform: translateX(-50%) translateY(-50%);
+        background: rgba(255, 255, 255, 255, 0.5);
+        padding:20px;
+        border: 1px solid black;
+        box-shadow: 0 0 8px 3px black; 
+        text-align: center
+    }
+    .enter-text{
+        margin-top: 10px;
+        font-family: 'Marvel', sans-serif;
+        font-size: 60px;
+    }
+       /* Following styles apply once the quiz begins */
+
+       .container{
+        height: 80vw;
+        position: absolute;
+        top:60%;
+        left: 50%;
+        margin-top:50px;
+        transform: translateX(-50%) translateY(-50%)
+    }
+    .option{
+        width:100px;
+    }
+}
+
+/* plus series */
+@media screen and (max-width:500px){
+
+    .enter-container{
+        height: 50vw;
+    }
+    .enter-text{
+        margin-top: 10px;
+        font-family: 'Marvel', sans-serif;
+        font-size: 30px;
+    }
+    .button{
+        margin:5px;
+    }
+
+    /* Following styles apply once the quiz begins */
+
+    .container{
+        height: 100vw;
+        position: absolute;
+        top:50%;
+        left: 50%;
+        margin-top:50px;
+        transform: translateX(-50%) translateY(-50%)
+    }
+    .option{
+        width:100px;
+    }
+    
+}
+/* iphone x  */
+@media screen and (max-width:400px){
+    .enter-container{
+        position: absolute;
+        top:40%;
+        left: 55%;
+        margin-top:50px;
+    }
+    .enter-text{
+        margin-top: 10px;
+        font-family: 'Marvel', sans-serif;
+        font-size: 30px;
+    }
+    .button{
+        width: 200px;
+        margin: 10px;
+    }
+
+    /* Following styles apply once the quiz begins */
+
+    .container{
+        height: 130vw;
+        position: absolute;
+        top:60%;
+        left: 55%;
+        margin-top:50px;
+        transform: translateX(-50%) translateY(-50%)
+    }
+    .option{
+        width:100px;
+    }
+
+}
+
+/* iphone 5, galaxy s5, similar */
+@media screen and (max-width:360px){
+    .enter-container{
+        position: absolute;
+        top:50%;
+        left: 55%;
+        margin-top:50px;
+        height: 70vw;
+    }
+    .container{
+        height: 130vw;
+        position: absolute;
+        top:60%;
+        left: 55%;
+        margin-top:50px;
+        transform: translateX(-50%) translateY(-50%)
+    }
+    .option{
+        width:90px;
+    }
+}
+
+@media screen and (max-width:320px){
+    .enter-container{
+        position: absolute;
+        top:55%;
+        left: 60%;
+        margin-top:50px;
+        height: 70vw;
+    }
+    .container{
+        height: 420px;
+        width: 90vw;
+        position: absolute;
+        top:70%;
+        left: 60%;
+        margin-top:50px;
+        transform: translateX(-50%) translateY(-50%);
+    }
+    .option{
+        width:100px;
+    }
+}
