@@ -1,7 +1,7 @@
 ## Marvel Trivia
 A trivia game that tests your Marvel Knowledge!
-## Play here
+## Play here:
 https://skay97.github.io/trivia-game/
-## Screenshots
+## Screenshots:
 ![](assets/Images/Marvel-trivia.png)
 ![](assets/Images/Quiz.png)
